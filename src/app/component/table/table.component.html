@@ -1,0 +1,13 @@
+<h1 class="title">{{tableName}}</h1>
+<table *ngIf="filterData && filterData.length > 0">
+    <thead>
+      <tr>
+        <th class="thead" *ngFor="let column of columns" (click)="sort(column)">{{ column.header }} {{column.direction === null ? "" : (column.direction ? " - asc" : " - desc")}}</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr class="throw" *ngFor="let row of filterData">
+            <td *ngFor="let column of columns">{{ row[column.field] }}</td>
+        </tr>
+    </tbody>
+</table>

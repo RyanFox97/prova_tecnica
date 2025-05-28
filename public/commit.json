@@ -1,0 +1,26 @@
+{
+    "data": [
+        { "nome": "Release 1", "data": "2022-01-01", "versione": 1.0, "autore": "Mario Rossi", "commento": "Prima release" },
+        { "nome": "Fix bug", "data": "2022-01-05", "versione": 1.1, "autore": "Luca Bianchi", "commento": "Fix bug critico" },
+        { "nome": "Nuova feature", "data": "2022-01-10", "versione": 1.2, "autore": "Giulia Verdi", "commento": "Aggiunta nuova feature" },
+        { "nome": "Release 2", "data": "2022-02-01", "versione": 2.0, "autore": "Francesco Neri", "commento": "Seconda release" },
+        { "nome": "Fix bug", "data": "2022-02-05", "versione": 2.1, "autore": "Alessia Gialli", "commento": "Fix bug minore" },
+        { "nome": "Miglioramento performance", "data": "2022-02-10", "versione": 2.2, "autore": "Mario Rossi", "commento": "Miglioramento performance" },
+        { "nome": "Release 3", "data": "2022-03-01", "versione": 3.0, "autore": "Luca Bianchi", "commento": "Terza release" },
+        { "nome": "Nuova feature", "data": "2022-03-05", "versione": 3.1, "autore": "Giulia Verdi", "commento": "Aggiunta nuova feature" },
+        { "nome": "Fix bug", "data": "2022-03-10", "versione": 3.2, "autore": "Francesco Neri", "commento": "Fix bug critico" },
+        { "nome": "Miglioramento UI", "data": "2022-03-15", "versione": 3.3, "autore": "Alessia Gialli", "commento": "Miglioramento UI" },
+        { "nome": "Release 4", "data": "2022-04-01", "versione": 4.0, "autore": "Mario Rossi", "commento": "Quarta release" },
+        { "nome": "Nuova feature", "data": "2022-04-05", "versione": 4.1, "autore": "Luca Bianchi", "commento": "Aggiunta nuova feature" },
+        { "nome": "Fix bug", "data": "2022-04-10", "versione": 4.2, "autore": "Giulia Verdi", "commento": "Fix bug minore" },
+        { "nome": "Miglioramento sicurezza", "data": "2022-04-15", "versione": 4.3, "autore": "Francesco Neri", "commento": "Miglioramento sicurezza" },
+        { "nome": "Release 5", "data": "2022-05-01", "versione": 5.0, "autore": "Alessia Gialli", "commento": "Quinta release" }
+    ],
+    "columns": [
+        {"header": "Nome", "field": "nome", "direction": null},
+        {"header": "Data", "field": "data", "direction": null},
+        {"header": "Versione", "field": "versione", "direction": null},
+        {"header": "Autore", "field": "autore", "direction": null},
+        {"header": "Commento", "field": "commento", "direction": null}
+    ]
+}
